@@ -1,13 +1,13 @@
 # Reorder
 
 ### Install
-```
+```js
 yarn add reorder
 ```
 
 ### Usage
 
-```
+```js
 import reorder from 'reorder'
 
 var array = ["A","B","C"];

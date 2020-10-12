@@ -1,21 +1,22 @@
 {
-    "name": "reorder",
-    "version": "1.0.00",
+    "name": "reorder-array",
+    "version": "1.0.3",
     "description": "Reorder Array Items",
-    "homepage": "http://github.com/adamhalasz/reorder/",
+    "homepage": "http://github.com/adamhalasz/reorder-array/",
     "keywords": [
-      "unique id",
-      "uniqid",
-      "unique identifier",
-      "hexatridecimal"
+      "array",
+      "reorder",
+      "reposition",
+      "sort",
+      "reindex"
     ],
     "bugs": {
-      "url": "http://github.com/adamhalasz/reorder/issues",
+      "url": "http://github.com/adamhalasz/reorder-array/issues",
       "email": "mail@adamhalasz.com"
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/adamhalasz/reorder.git"
+      "url": "https://github.com/adamhalasz/reorder-array.git"
     },
     "files": [
       "index.js"

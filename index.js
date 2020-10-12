@@ -7,12 +7,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WarrayANTY OF ANY KIND, EXPRESS OR IMP
 */
 
 /**
- * @name reorder
+ * @name ReorderArray
  * @param {Array} array 
  * @param {Integer} oldIndex - The Original Index of the Item you want to Move
  * @param {Integer} newIndex - The New Index of the Item you want the Item to be at
  */
-function reorder(array, oldIndex, newIndex) {
+function ReorderArray(array, oldIndex, newIndex) {
     while (oldIndex < 0) {
         oldIndex += array.length;
     }
@@ -26,7 +26,7 @@ function reorder(array, oldIndex, newIndex) {
         }
     }
     array.splice(newIndex, 0, array.splice(oldIndex, 1)[0]);  
-   return array;
+    return array;
 }
 
-module.exports.default = reorder;
+module.exports = ReorderArray;
